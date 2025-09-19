@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registreren</title>
+    <link rel="stylesheet" href="styling_page.css">
+</head>
+<body>
+    <header class="header">
+        <img src="afbeeldingen/Pizza-logo.png" alt="Logo">
+        <div class="search-bar">
+            <input type="text" placeholder="Zoeken...">
+            <button type="submit">Zoek</button>
+        </div>
+        <div class="header-buttons">
+            <a href="Bestelling.html">
+                <img src="afbeeldingen/winkelmandje.png" alt="Bestelling"> Bestelling
+            </a>
+            <a href="Profiel.html">
+                <img src="afbeeldingen/user.png" alt="Account"> Account
+            </a>
+        </div>
+    </header>
+
+    <div class="container">
+    <label class="hamburger-menu">
+        <input type="checkbox">
+    </label>
+    <aside class="sidebar">
+        <nav>
+            <a href="Hoofdpagina_klanten.html">Home</a>
+            <a href="Menu.html" >Menu</a>
+            <a href="Profiel.html">Profiel</a>
+            <a href="Bestelling.html" >Bestelling</a>
+        </nav>
+    </aside>
+    
+
+    <div class="search-container">
+    <div class="search-bar">
+        <form action="Registreren.html" method="POST">
+            <label for="voornaam">Voornaam: </label>
+            <input type="text" id="voornaam" name="voornaam" placeholder="Voornaam">
+        
+            <label for="achternaam">Achternaam: </label>
+            <input type="text" id="achternaam" name="achternaam" placeholder="Achternaam">
+        
+            <label for="gebruikersnaam">Gebruikersnaam: </label>
+            <input type="text" id="gebruikersnaam" name="gebruikersnaam" placeholder="Gebruikersnaam">
+        
+            <label for="wachtwoord">Wachtwoord: </label>
+            <input type="text" id="wachtwoord" name="wachtwoord" placeholder="Wachtwoord">
+            
+            <button type="submit">Registreren</button>
+        </form>
+    </div>
+    </div>
+    </div>
+    <footer>
+        <a href="Privacy_statement.html">Privacyverklaring</a>
+    </footer>
+</body>
+</html>
